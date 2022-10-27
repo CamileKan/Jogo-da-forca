@@ -1,0 +1,105 @@
+@font-face {
+    font-family: Starjedi;
+    src: url("assets/Starjedi.ttf")
+}
+
+body {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    margin-top: 30px;
+}
+
+h1 {
+    color: #E6B93C;
+    font-family: Starjedi;
+}
+
+.darth-vader {
+    width: 300px;
+  }
+
+.boneco {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+
+.cabeca {
+    background: black;
+    width: 300px;
+    height: 120px;
+    position: absolute;
+    top: 0;
+  }
+
+.braco-esquerdo {
+    background: black;
+    width: 100px;
+    height: 160px;
+    position: absolute;
+    left: 0;
+  }
+
+.torso {
+    background: black;
+    width: 100px;
+    height: 160px;
+    position: absolute;
+    left: 100px;
+  }
+
+.braco-direito {
+    background: black;
+    width: 100px;
+    height: 160px;
+    position: absolute;
+    right: 0;
+  }
+
+.perna-esquerda {
+    background: black;
+    width: 155px;
+    height: 160px;
+    position: absolute;
+    left: 0;
+    top: 190px;
+  }
+
+.perna-direita {
+    background: black;
+    width: 155px;
+    height: 160px;
+    position: absolute;
+    right: 0;
+    top: 190px;
+  }
+
+  .mostrar {
+    background-color: transparent;
+  }
+
+.palavra{
+    color: #E6B93C;
+    font-size: 42px;
+    margin-bottom: 0;
+}
+
+.letra {
+    border: 1px solid #E6B93C;
+}
+
+button {
+    background-color: #4894c3;
+    color: white;
+    border: 0;
+    padding: 12px 24px;
+    border-radius: 10px;
+    cursor: pointer;
+}
